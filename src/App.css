@@ -1,0 +1,168 @@
+.pets {
+    display: flex;
+    flex-wrap: wrap;
+    }
+    
+    .pet-card {
+    padding: 2%;
+    flex-grow: 1;
+    flex-basis: 16%;
+    }
+    
+    body {
+      background-color: #c7efc7;
+    }
+    
+    
+    .cont {
+    display: flex;
+    justify-content: center;
+    }
+    
+    .back {
+    background-color: #89f082; 
+    padding: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-family: "Alegreya", serif;
+    font-size: 35px;
+    border-radius: 15px;
+    }
+    
+    .change {
+    background-color: #89f082;
+    color: black;
+    padding: 10px;
+    border: none;
+    font-family: "Alegreya", serif;
+    font-size: 15px;
+    border-radius: 15px;
+    font-weight: 500;
+    }
+    
+    h3, h4 {
+        font-family: "Alegreya", serif;
+    }
+    
+    button {
+    margin: 10px;
+    }
+    
+    .about {
+      display: flex;
+      justify-content: center;
+      font-family: "Alegreya", serif;
+      font-size: 18px;
+      flex-wrap: wrap;
+    }
+
+    .petName,.petAge{
+      padding: 10px; 
+    }
+    
+    nav {
+        display: flex;
+        background-color: #1d871d;
+        justify-content: center;
+        padding: 15px;
+        font-family: "Alegreya", serif;
+        font-weight: bolder;
+      }
+      
+      .link{
+        padding: 10px 40px;
+        text-decoration: none;
+        color: black;
+        text-transform: uppercase;
+      }
+
+      .container {
+        display: flex;
+        justify-content: center; 
+        font-family: "Alegreya", serif;
+      }
+      
+      .btn {
+      display: flex;
+      justify-content: space-evenly;
+      }
+      
+      
+      button {
+        background-color: #89f082;
+        color: black;
+        padding: 10px;
+        border: none;
+        text-transform: uppercase;
+        border-radius: 15px;
+        font-family: "Alegreya", serif;
+        font-weight: bold;
+      }
+
+      .text{
+        display: flex;
+        justify-content: space-around;
+        padding: 10px;
+      }
+    hr {
+      margin: 10px;
+    }
+
+    .linkt {
+      color: black;
+      font-family: "Alegreya", serif;
+      text-decoration: none;
+    }
+
+    .contactItem{
+      color: black;
+      font-family: "Alegreya", serif;
+      margin: 15px;
+      font-size: 18px;
+    }
+
+    @media all and (max-width:800px){
+      body {
+          height:110vh;}
+  
+    .nav {
+      display: flex;
+      justify-content: center;
+      overflow: hidden;
+      position: fixed;
+  }
+
+  .back {
+    padding: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    font-size: 15px;
+    border-radius: 15px;
+    }
+
+    .change {
+      padding: 5px;
+      font-size: 10px;
+      }
+  
+      .about {
+        font-size: 15px;
+        }
+
+        .petName,.petAge{
+          padding: 5px; 
+        }
+        nav {
+          display: flex;
+          flex-direction: column;
+          flex-wrap: wrap;
+          padding: 10px;
+        }
+
+        img {
+          width:300px;
+          height:200px;
+          margin-left: 20px;
+        }
+  }
+
