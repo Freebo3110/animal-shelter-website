@@ -1,15 +1,15 @@
 import './App.css';
-import { data2 } from './data2';
+import { dataabout } from './dataabout';
 import { useState} from 'react';
 
 function About (){
     
   const [about,setAbout]=useState(0);
-  const {description, image}=data2[about];
+  const {description, image}=dataabout[about];
   const nextAbout =()=>{
     setAbout((about=>{
       about++;
-      if(about>data2.length-1){
+      if(about>dataabout.length-1){
         about=0;
       }
       return about;
@@ -19,7 +19,7 @@ function About (){
     setAbout((about=>{
       about--;
       if(about<0){
-        return data2.length-1;
+        return dataabout.length-1;
       }
       return about;
     }))
